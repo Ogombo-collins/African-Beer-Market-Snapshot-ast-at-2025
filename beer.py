@@ -396,7 +396,7 @@ st.markdown("---")
 col_f1, col_f2 = st.columns([3, 1])
 with col_f1:
     st.caption("Data Sources: Business Insider Africa, Kirin Holdings Global Beer Report(2022),Global Data Consolidations, and WHO Global Health Observatory.")
-    st.caption("Note: Timelies of dataset used are primarily between 2022-2025.")
+    st.caption("Note: Timelines of dataset used are primarily between 2022-2025.")
     st.caption("Developed by Collins Ogombo | © 2026 All rights reserved.")
 with col_f2:
     csv = filtered_df.to_csv(index=False)
