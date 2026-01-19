@@ -396,9 +396,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Developer**: Collins Ogombo
 
-**Project Repository**: [GitHub - African Beer Market Intelligence](https://github.com/Ogombo-collins/African-Beer-Market-Snapshot-ast-at-2025.git)
-
-**Questions or Feedback**: Open an issue on GitHub or contact via [collinsogomboochiko@gmail.com]
+**Questions or Feedback**: Open an issue on GitHub or contact via collinsogomboochiko@gmail.com
 
 ---
 
