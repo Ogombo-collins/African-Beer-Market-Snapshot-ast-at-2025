@@ -1,0 +1,23 @@
+# --- Python Virtual Environments ---
+venv/
+.env/
+.venv/
+
+# --- Python Cache & Bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Streamlit Logs ---
+.streamlit/
+
+# --- VS Code Settings ---
+.vscode/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
