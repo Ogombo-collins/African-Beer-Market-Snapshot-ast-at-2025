@@ -24,7 +24,7 @@ A comprehensive data visualization dashboard analyzing beer consumption patterns
 
 ## Overview
 
-This interactive dashboard provides strategic market intelligence for the African beer industry, covering 15 countries across four sub-regions: Southern Africa, East Africa, West Africa, and Central Africa. The application enables users to explore relationships between production capacity, consumption patterns, pricing strategies, and emerging digital retail channels.
+This interactive dashboard provides strategic market intelligence for the African beer industry, covering 15 countries across four sub-regions: Southern Africa, East Africa, West Africa, and Central Africa. The web-app dashboard enables users to explore relationships between production capacity, consumption patterns, pricing strategies, and emerging digital retail channels.
 
 ### Project Objectives
 
@@ -69,13 +69,13 @@ This interactive dashboard provides strategic market intelligence for the Africa
 
 This analysis synthesizes data from multiple authoritative sources:
 
-- **Business Insider Africa** - Market reports and consumption statistics
+- **Business Insider Africa Article** - Market reports on beer production nations in Africa. [Business Insider Africa: Top 10 African countries with the highest beer production](https://africa.businessinsider.com/local/markets/business-insider-africa-presents-the-top-10-african-countries-with-the-highest-beer/g41xx5z)
 - **Kirin Holdings Global Beer Report (2022)** - International beer production and consumption data
 - **Global Data Consolidations** - Industry analysis and market trends
 - **WHO Global Health Observatory** - Public health and alcohol consumption data
 - **Primary Research** - Digital retail channel verification (2024-2025)
 
-**Data Timeline**: Primary dataset spans 2022-2025, with production and consumption figures reflecting the most recent available statistics as of January 2025.
+**Data Timeline**: Primary dataset spans 2022-2025, with production and consumption figures reflecting the most recent available statistics.
 
 ---
 
@@ -112,7 +112,7 @@ altair>=5.0.0
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/african-beer-market-intelligence.git
+git clone https://github.com/Ogombo-collins/African-Beer-Market-Snapshot-ast-at-2025.git
 cd african-beer-market-intelligence
 ```
 
@@ -142,7 +142,7 @@ The application will automatically open in your default browser at `http://local
 
 ---
 
-## Usage
+## Usage (Web-App)
 
 ### Basic Navigation
 
@@ -226,6 +226,7 @@ Comprehensive market data with custom column configurations:
 - **Avg Price**: Currency-formatted ($) values
 - **Top Brands**: Leading market brands
 - **Digital Channels**: E-commerce and delivery platforms
+- **Interactivity**: Click full screen icon on top right to see whole table
 
 ### Consumer Insights
 Expandable section containing market-specific observations:
@@ -322,7 +323,7 @@ Three-column comparative view:
 
 ## Future Enhancements
 
-### Planned Features
+### Planned Features (Welcome to collaborators who can help with these:)
 
 **Version 2.0**
 - [ ] Time-series analysis showing market growth trends (2020-2025)
@@ -395,9 +396,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Developer**: Collins Ogombo
 
-**Project Repository**: [GitHub - African Beer Market Intelligence](https://github.com/yourusername/african-beer-market-intelligence)
+**Project Repository**: [GitHub - African Beer Market Intelligence](https://github.com/Ogombo-collins/African-Beer-Market-Snapshot-ast-at-2025.git)
 
-**Questions or Feedback**: Open an issue on GitHub or contact via [your contact method]
+**Questions or Feedback**: Open an issue on GitHub or contact via [collinsogomboochiko@gmail.com]
 
 ---
 
