@@ -251,6 +251,9 @@ Three-column comparative view:
 |-------|------|-------------|------|-------|
 | `country` | String | African nation name | - | 15 markets |
 | `region` | Categorical | Sub-regional classification | - | Southern, East, West, Central Africa |
+| `population_millions` | Float | Estimated population | Millions | 0.1 - 223 |
+| `drinking_population_millions` | Float | Adults (15+) who drink | Millions | 0.04 - 30.2 |
+| `total_volume_consumed_ml` | Float | Total liters consumed nationally (Million Liters) | Millions | 3.6 - 1168 |
 | `liters_per_capita` | Float | Annual per-person consumption | Liters | 7.3 - 150.0 |
 | `production_m_hl` | Float | Total national beer production | Million hectoliters | 0.12 - 35.10 |
 | `avg_price_usd` | Float | Average retail price (500ml bottle) | USD | $0.85 - $4.50 |
@@ -264,6 +267,9 @@ Three-column comparative view:
 - **Total Production**: Sum of `production_m_hl` across filtered markets
 - **Top Consumer**: Country with maximum `liters_per_capita` value
 - **Markets Analyzed**: Count of countries meeting filter criteria
+- **Drinking Population**: Calculated as Total Population × (% Adults 15+/100) × (% Drinkers/100)
+- **Total Volume Consumed**: Calculated as Per Capita Consumption × Drinking Population
+- **Regional Weighted Per Capita**: To ensure large markets influence regional trends proportionally, we use: Σ(Country Rate × Drinking Population) / Σ(Total Regional Drinking Population)
 
 ---
 
@@ -289,10 +295,11 @@ Three-column comparative view:
 ### Regional Patterns
 
 **Southern Africa**
-- Highest per-capita consumption globally
+- Southern Africa maintains the highest weighted per-capita consumption rate:
 - Mature markets with established beer culture
 - Strong digital retail infrastructure
 - Premium and traditional brands coexist
+
 
 **East Africa**
 - Moderate consumption, high production capacity
@@ -301,7 +308,7 @@ Three-column comparative view:
 - Growing digital delivery services
 
 **West Africa**
-- Large population markets with lower per-capita consumption
+- Large population markets with moderately low regional weighted per-capita consumption
 - Guinness brand dominance in Nigeria
 - Expanding production capacity
 - Early-stage e-commerce adoption
