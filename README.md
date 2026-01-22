@@ -222,6 +222,9 @@ Four dynamic metric cards displaying:
 Comprehensive market data with custom column configurations:
 - **Country & Region**: Text identifiers
 - **Consumption**: Progress bar visualization (0-150L scale)
+- **Total Population**: Country's estimatd population
+- **Drinking Population**: Adultas aged 15+ eligible to drink alcoholic beverages
+- **Total Volume**: Total consumption volume of beer in the country
 - **Production**: Numeric display with million hectoliters format
 - **Avg Price**: Currency-formatted ($) values
 - **Top Brands**: Leading market brands
@@ -295,7 +298,7 @@ Three-column comparative view:
 ### Regional Patterns
 
 **Southern Africa**
-- Southern Africa maintains the highest weighted per-capita consumption rate:
+- Southern Africa maintains the highest weighted per-capita consumption rate:49L per person
 - Mature markets with established beer culture
 - Strong digital retail infrastructure
 - Premium and traditional brands coexist

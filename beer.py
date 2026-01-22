@@ -363,12 +363,12 @@ st.dataframe(
         "country": st.column_config.TextColumn("Country", width="small"),
         "region": st.column_config.TextColumn("Region", width="small"),
         "population_millions": st.column_config.NumberColumn(
-            "Total Pop (M)",
+            "Total Popoulation (M)",
             format="%.1f M",
             width="small"
         ),
         "drinking_population_millions": st.column_config.NumberColumn(
-            "Drinking Pop (M)",
+            "Drinking Population (M)",
             format="%.2f M",
             width="small",
             help="Estimated population that consumes alcohol (adults 15+ who drink)"
@@ -382,7 +382,7 @@ st.dataframe(
             help="Liters consumed per person among drinkers"
         ),
         "total_volume_consumed_ml": st.column_config.NumberColumn(
-            "Total Volume (M L)",
+            "Total Volume Consumed(ML)",
             format="%.1f M L",
             width="medium",
             help="Total beer consumed = Per capita × Drinking population"
