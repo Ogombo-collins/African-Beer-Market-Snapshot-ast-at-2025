@@ -390,7 +390,8 @@ st.dataframe(
         "production_m_hl": st.column_config.NumberColumn(
             "Production (M hl)",
             format="%.2f M",
-            width="small"
+            width="small",
+            help="Total liters of beer brewed in the country expressed as Million hectoliters"
         ),
         "avg_price_usd": st.column_config.NumberColumn(
             "Avg Price ($)",
